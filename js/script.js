@@ -41,7 +41,7 @@ for (const dog of availableDogs) {
     cards.innerHTML +=
         `<div class="col-lg-4 col-md-6 col-sm-12" id="${dog.name}Card" id="${dog.available}>
                     <div class="card" style="width: 18rem;">
-                    <img src="./images/${dog.name}.jpg" class="card-img-top" alt="Picture of adoptable ${dog.breed}.">
+                    <img src="../images/${dog.name}.jpg" class="card-img-top" alt="Picture of adoptable ${dog.breed}.">
                     <div class="card-body">
                         <h5 class="card-title">${dog.name} | ${dog.breed}</h5>
                         <p class="card-text">${dog.age} year old, ${dog.gender}, ${dog.personality} </p>
